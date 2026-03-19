@@ -32,6 +32,6 @@ export function sanitizeNumericInput(raw: string): string {
 }
 
 export const getLocalIconPath = (symbol: string): string => {
-  return `/src/assets/${symbol}.svg`
+  return `/assets/${symbol}.svg`
 }
 

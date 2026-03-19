@@ -29,7 +29,7 @@ export const CurrencySwap: React.FC = () => {
 
   const rate =
     priceMap[fromCurrency] && priceMap[toCurrency]
-      ? priceMap[toCurrency] / priceMap[fromCurrency]
+      ? priceMap[fromCurrency] / priceMap[toCurrency]
       : undefined
 
   const toAmount =
